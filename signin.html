@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Sign-In</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="icon" href="download.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="bgimg">
+    </div>
+    <a href="index.html"><img class="image" style="margin-top: 15px; margin-left: 20px;" src="bhargav.png"></a>
+    <form onsubmit="return validateform()" action="index.html">
+    <div class="margin">
+    <div class="parent">
+        <div class="child">
+            <h2>Sign-In</h2>
+            <br>
+            <p style="font-weight: 600;">Email or Phone Number</p>
+            <input id="phone" type="email">
+            <br>
+            <br>
+            <p style="font-weight: 600;">Password</p>
+            <input id="password" type="password">
+            <br>
+            <br>
+            <button>Continue</button>
+            <br>
+            <br>
+            <p style="font-size: smaller;">
+            By continuing, you agree to the Amazon <a style="color: #007185; font-size: small;" href="https://www.primevideo.com/help/ref=av_auth_te?nodeId=202064890"> Conditions of Use and Privacy Notice.</a>
+            </p>
+            <div class="child1">
+            <i class="fa-solid fa-exclamation"></i> <a style="color: #007185; font-size: small;" href="https://www.primevideo.com/help/ref=av_auth_hp">  Need Help?</a>
+            </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <center>
+    <a href="signup.html"><button class="button1">Create Your Amazon Account</button></a>
+    </center>
+    <br>
+    <br>
+    <hr>
+    <div class="bg">
+        <div class="last">
+            <a href="https://www.primevideo.com/help/ref=av_auth_ter?nodeId=202064890">Terms and Privacy Notice</a>
+            <a href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Feu.primevideo.com%2Fauth%2Freturn%2Fref%3Dav_auth_ap%3F_t%3D1sg9KEO6tUqZugOeIjLLiSubdmvD-b8iHZk1HQj-fziALaAAAAAQAAAABnf7eCcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ%26location%3D%2Fhelp%2Fcontact-us%3Fref_%253Datv_auth_red_aft&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&accountStatusPolicy=P1&openid.assoc_handle=amzn_prime_video_sso_in&openid.mode=checkid_setup&countryCode=IN&siteState=257-5763524-1257166&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">send your feedback</a>
+            <a href="https://www.primevideo.com/help/ref=av_auth_hp">Help</a>
+        </div>
+        <p style="font-family: sans-serif; font-size: small; margin-top: 15px; text-align: center; color: #565959;">© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+    </div>
+</body>
+<script>
+    function validateform(){
+    var phone=document.getElementById("phone").value;
+    var password=document.getElementById("password").value;
+    var emailpattern= /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if(phone == "" || password == ""){
+        alert("Please fill out all the fields")
+        return false;
+    }
+    else if(!emailpattern.test(phone)){
+        alert("Enter a valid email address")
+        return false;
+    }
+    else{
+        // alert("login")
+        return true
+    }
+}
+</script>
+</html>

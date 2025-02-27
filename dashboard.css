@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.left{
+    margin-left: 40px;
+}
+.left img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.middle{
+    margin-left: 20px;
+}
+.middle ul{
+    display: flex;
+    align-items: center;
+}
+.middle a{
+    text-decoration: none;
+    color: white;
+}
+.middle li{
+    margin-left: 40px;
+    list-style: none;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+}
+.right input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: -3px;
+}
+.right i{
+    margin-left: 20px;
+}
+.right button{
+    margin-left: 20px;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(26, 152, 255);
+    color: white;
+    border-radius: 7px;
+    border: 1px solid;
+    border-color: white;
+    box-shadow: 0px 0px 8px white;
+}
+.middle li:hover{
+    transform: scale(1.1);
+    transition: all 0.4s;
+    background-color: white;
+    color: black;
+    padding: 2px;
+    border-radius: 5px;
+}
+.right input:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.right i:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.right button:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.dashboard{
+    display: flex;
+    margin-top: -10px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.dashboard1{
+    background-image: url("c1.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 275px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+.dashboard2{
+    background-image: url("c2.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 275px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+.dashboard3{
+    background-image: url("c3.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 275px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+.dashboard4{
+    background-image: url("c4.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 275px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+.dashboard5{
+    background-image: url("c5.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 275px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+.dashboard6{
+    background-image: url("c7.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 275px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+.dashboard7{
+    background-image: url("c6.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 275px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+.dashboard8{
+    background-image: url("c8.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 275px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+.dashboard9{
+    background-image: url("c9.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 275px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+.dashboard10{
+    background-image: url("c10.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 275px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+.dashboard11{
+    background-image: url("c11.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 275px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+.dashboard12{
+    background-image: url("c1.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 275px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+.dashboard1 h3{
+    margin-left: 15px;
+}
+.dashboard2 h3{
+    margin-left: 15px;
+}
+.dashboard3 h3{
+    margin-left: 15px;
+}
+.dashboard4 h3{
+    margin-left: 15px;
+}
+.dashboard5 h3{
+    margin-left: 15px;
+}
+.dashboard6 h3{
+    margin-left: 15px;
+}.dashboard7 h3{
+    margin-left: 15px;
+}
+.dashboard8 h3{
+    margin-left: 15px;
+}
+.dashboard9 h3{
+    margin-left: 15px;
+}
+.dashboard10 h3{
+    margin-left: 15px;
+}
+.dashboard11 h3{
+    margin-left: 15px;
+}
+.dashboard12 h3{
+    margin-left: 15px;
+}
+.dashboard1:hover{
+    box-shadow: 0px 0px 1px,
+    0px 0px 3px,
+    0px 0px 6px;
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.dashboard2:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px,
+    0px 0px 4px,
+    0px 0px 7px;
+}
+.dashboard3:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px,
+    0px 0px 4px,
+    0px 0px 7px;
+}
+.dashboard4:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px,
+    0px 0px 4px,
+    0px 0px 7px;
+}
+.dashboard5:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px,
+    0px 0px 4px,
+    0px 0px 7px;
+}
+.dashboard6:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px,
+    0px 0px 4px,
+    0px 0px 7px;
+}
+.dashboard7:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px,
+    0px 0px 4px,
+    0px 0px 7px;
+}
+.dashboard8:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px,
+    0px 0px 4px,
+    0px 0px 7px;
+}
+.dashboard9:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px,
+    0px 0px 4px,
+    0px 0px 7px;
+}
+.dashboard10:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px,
+    0px 0px 4px,
+    0px 0px 7px;
+}
+.dashboard11:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px,
+    0px 0px 4px,
+    0px 0px 7px;
+}
+.dashboard12:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px,
+    0px 0px 4px,
+    0px 0px 7px;
+}
+.dashboard1 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.dashboard2 a{
+    text-decoration: none;
+    color: white
+}
+.dashboard3 a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard4 a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard5 a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard6 a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard7 a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard7 a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard8 a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard9 a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard10 a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard11 a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard12 a{
+    text-decoration: none;
+    color: white;
+}
+.end{
+    /* background-color: gray; */
+    opacity: 0.9;
+    text-align: center;
+    margin-top: 50px;
+}
+.end p{
+    font-size: small;
+    margin-top: 5px;
+    color: #8197a4;
+    margin-bottom: 10px;
+    /* color: rgb(35, 33, 33); */
+}
+.end a{
+    text-decoration: none;
+    color: #79b8f3;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: medium;
+    margin-top: 20px;
+}
+
+
+

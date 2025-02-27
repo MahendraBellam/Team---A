@@ -1,0 +1,98 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+ body{
+    font-family: sans-serif;
+ }
+ .bgim{
+    background-image: url("download.jpg");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1300px;
+    height: 850px;
+    background-position: center;
+    filter: blur(3px);
+    z-index: -1;
+    margin-top: -10px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.parent{
+    background-color: white;
+    color: black;
+    border: 1px solid lightgray;
+    width: 350px;
+    height: 500px;
+    border-radius: 8px;
+    margin-top: 16px;
+    font-family: sans-serif;
+    opacity: 0.9;
+    margin-top: -53px;
+}
+.child{
+    margin-left: 15px;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.child input{
+    width: 310px;
+    height: 25px;
+    border-radius: 5px;
+    border: gray 1px solid;
+    margin-top: -20px;
+}
+.child1{
+    margin-top: -12px;
+}
+.child1 input{
+    width: 230px;
+    height: 24px;
+    margin-left: 2px;
+    border: gray 1px solid;
+}
+.yourname{
+    margin-top: -9px;
+}
+.password{
+    margin-top: -9px;
+}
+.child1 select{
+    height: 28px;
+    border-radius: 5px;
+    background-color: lightgray;
+    border: gray 1px solid;
+}
+.pass {
+    display: flex;
+    align-items: center;
+    margin-top: -11px;
+}
+.pass1{
+    color: #007185;
+}
+.pass2{
+    margin-left: 7px;
+    font-size: smaller;
+}
+button{
+    width: 310px;
+    height: 30px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: gold;
+    font-weight: 500;
+    margin-left: 6px;
+}
